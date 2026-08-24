@@ -1,0 +1,36 @@
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="metalGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5f8f6e"/>
+      <stop offset="15%" stop-color="#a9d3b3"/>
+      <stop offset="35%" stop-color="#d6ecdb"/>
+      <stop offset="50%" stop-color="#7fb28f"/>
+      <stop offset="65%" stop-color="#d6ecdb"/>
+      <stop offset="85%" stop-color="#a9d3b3"/>
+      <stop offset="100%" stop-color="#5f8f6e"/>
+    </linearGradient>
+    <linearGradient id="boreShade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3f6b4c"/>
+      <stop offset="50%" stop-color="#6b9c7a"/>
+      <stop offset="100%" stop-color="#3f6b4c"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#333" stroke-width="1">
+    <!-- Upper collar -->
+    <rect x="98" y="10" width="44" height="30" fill="url(#metalGreen)"/>
+
+    <!-- Body housing the seat bore -->
+    <rect x="88" y="40" width="64" height="150" fill="url(#metalGreen)"/>
+
+    <!-- Internal bore (seat profile) -->
+    <rect x="104" y="55" width="32" height="120" rx="10" fill="url(#boreShade)"/>
+
+    <!-- Landing seat rings where a plug/valve lands -->
+    <rect x="108" y="95" width="24" height="6" fill="#dfe9e2"/>
+    <rect x="108" y="107" width="24" height="6" fill="#dfe9e2"/>
+
+    <!-- Lower collar -->
+    <rect x="98" y="190" width="44" height="30" fill="url(#metalGreen)"/>
+  </g>
+</svg>

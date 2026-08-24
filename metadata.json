@@ -1,0 +1,6 @@
+{
+  "name": "Wellbore Schematic Pro",
+  "description": "Expert Oil & Gas well completion data entry and interactive dynamic wellbore schematic generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

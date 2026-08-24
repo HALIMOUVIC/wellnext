@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <!-- Injection Arrow Gradient -->
+    <linearGradient id="injArrowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="40%" stop-color="#38bdf8"/>
+      <stop offset="80%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+
+    <!-- Collar / Bonnet Gradient -->
+    <linearGradient id="injCollarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+
+    <!-- Main Valve / T-Pipe Gradient -->
+    <linearGradient id="injBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="30%" stop-color="#1d4ed8"/>
+      <stop offset="70%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Soft Drop Shadow Filter -->
+    <filter id="injShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3.5" flood-color="#091834" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#injShadow)" stroke="#091834" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ================= 1. DOWNWARD INJECTION ARROW ================= -->
+    <path fill="url(#injArrowGrad)" d="
+      M 69,14
+      H 91
+      V 34
+      H 104
+      L 80,60
+      L 56,34
+      H 69
+      Z
+    "/>
+    <!-- Internal highlight line -->
+    <line x1="80" y1="16" x2="80" y2="44" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- ================= 2. TOP CRADLE / YOKE COLLAR ================= -->
+    <path fill="url(#injCollarGrad)" d="
+      M 59,51
+      C 57,48 61,45 64,48
+      C 67,52 72,57 80,63
+      C 88,57 93,52 96,48
+      C 99,45 103,48 101,51
+      C 101,58 96,65 80,65
+      C 64,65 59,58 59,51
+      Z
+    "/>
+
+    <!-- ================= 3. VALVE BODY / HORIZONTAL TEE PIPELINE ================= -->
+    <path fill="url(#injBodyGrad)" d="
+      M 73,65
+      H 87
+      V 85
+      C 93,87 99,90 106,94
+      H 123
+      V 89
+      H 139
+      V 115
+      H 123
+      V 110
+      H 106
+      C 99,114 93,121 80,121
+      C 67,121 61,114 54,110
+      H 37
+      V 115
+      H 21
+      V 89
+      H 37
+      V 94
+      H 54
+      C 61,90 67,87 73,85
+      Z
+    "/>
+
+    <!-- Horizontal tube highlight -->
+    <path d="M 23,101 H 55 C 63,99 71,96 80,96 C 89,96 97,99 105,101 H 137" fill="none" stroke="#93c5fd" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Light spot reflection on left flange / pipe junction -->
+    <circle cx="34" cy="99" r="2" fill="#ffffff" stroke="none" opacity="0.8"/>
+
+  </g>
+</svg>

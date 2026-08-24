@@ -1,0 +1,86 @@
+426:        className="a4-print-card w-[820px] h-[1160px] min-h-[1160px] bg-white border border-black text-black p-4 relative flex flex-col font-sans shrink-0 print:border-none print:shadow-none"
+430:        <div className="absolute inset-2.5 border border-black pointer-events-none" />
+431:        <div className="absolute inset-3 border-2 border-black pointer-events-none" />
+437:          <div className="w-full border border-black text-[10px] grid grid-cols-12 shrink-0 mb-2 leading-tight" id="cartouche_header_rows">
+439:            <div className="col-span-4 border-r border-b border-black p-1 font-mono font-bold flex justify-between items-baseline">
+443:            <div className="col-span-8 border-b border-black p-1 text-center font-extrabold text-base tracking-[0.25em] font-sans">
+448:            <div className="col-span-4 border-r border-black p-1.5 flex flex-col justify-center bg-slate-50">
+452:            <div className="col-span-3 border-r border-black p-1 flex flex-col justify-between items-center text-center">
+459:            <div className="col-span-3 border-r border-black p-1 flex flex-col justify-between items-center text-center">
+476:              <div className="border border-black border-solid flex flex-col shrink-0 bg-white" id="print_tete_deruption_and_vannes">
+477:                <div className="border-b border-black border-solid bg-gray-200 py-1 text-center font-sans font-black text-[10px] uppercase tracking-[0.2em] text-black">
+494:                      <td colSpan={2} className="border-r border-b border-black p-1 whitespace-nowrap">
+498:                      <td className="border-r border-b border-black p-1 whitespace-nowrap">
+502:                      <td colSpan={2} className="border-r border-b border-black p-1 whitespace-nowrap">
+506:                      <td className="border-b border-black p-1 text-center align-middle bg-slate-50/5 font-sans font-black text-[7.5px] uppercase tracking-wider">
+513:                      <td colSpan={2} className="border-r border-b border-black p-1 whitespace-nowrap">
+517:                      <td colSpan={3} className="border-r border-b border-black p-1 whitespace-nowrap">
+521:                      <td rowSpan={2} className="border-b border-black p-1 text-left pl-2 align-middle bg-slate-50/5">
+532:                      <td colSpan={2} className="border-r border-b border-black p-1 whitespace-nowrap">
+536:                      <td colSpan={3} className="border-r border-b border-black p-1 whitespace-nowrap">
+544:                      <td className="border-r border-b border-black p-1 font-sans text-[8px] text-left font-black">VANNES</td>
+545:                      <td className="border-r border-b border-black p-1 text-center">SAS</td>
+546:                      <td className="border-r border-b border-black p-1 text-center">Maitresse</td>
+547:                      <td className="border-r border-b border-black p-1 text-center">LAT-TBG</td>
+548:                      <td className="border-r border-b border-black p-1 text-center">LAT-CSG.</td>
+549:                      <td className="border-b border-black bg-slate-50/5"></td>
+554:                      <td className="border-r border-b border-black p-0.5 font-sans text-left text-[7.5px] uppercase text-slate-500">MARQUE</td>
+555:                      <td className="border-r border-b border-black p-0.5 text-black text-center">CROWN</td>
+556:                      <td className="border-r border-b border-black p-0.5 text-black text-center">CROWN</td>
+557:                      <td className="border-r border-b border-black p-0.5 text-black text-center">CROWN</td>
+558:                      <td className="border-r border-b border-black p-0.5 text-black text-center">CROWN</td>
+574:                      <td className="border-r border-b border-black p-0.5 font-sans text-left text-[7.5px] uppercase text-slate-500">NOMBRE</td>
+575:                      <td className="border-r border-b border-black p-0.5 text-black font-black text-center">01</td>
+576:                      <td className="border-r border-b border-black p-0.5 text-black font-black text-center">02</td>
+577:                      <td className="border-r border-b border-black p-0.5 text-black font-black text-center">02</td>
+578:                      <td className="border-r border-b border-black p-0.5 text-black font-black text-center">02</td>
+583:                      <td className="border-r border-black p-0.5 font-sans text-left text-[7.5px] uppercase text-slate-500">Ø et Série</td>
+584:                      <td className="border-r border-black p-0.5 text-black text-center">2"9/16.2000</td>
+585:                      <td className="border-r border-black p-0.5 text-black text-center">2"9/16.2000</td>
+586:                      <td className="border-r border-black p-0.5 text-black text-center">2"9/16.2000</td>
+587:                      <td className="border-r border-black p-0.5 text-black text-center">2"1/16.2000</td>
+594:              <div className="border border-black border-solid flex flex-col min-h-0 flex-1 bg-white mb-2 print-color-adjust" id="print_colonne_tubing_table">
+595:                <div className="border-b border-black border-solid bg-gray-200 py-1 text-center font-sans font-black text-[10px] uppercase tracking-[0.2em] text-black">
+602:                      <tr className="border-b border-black border-solid text-[8px] font-bold uppercase bg-gray-200 text-black">
+603:                        <th className="border-r border-black px-1 py-1 text-center w-[65px]">Désignation</th>
+604:                        <th className="border-r border-black px-1 py-1 text-center w-[20px]">Nb.</th>
+605:                        <th className="border-r border-black px-1 py-1 text-center w-[24px]">Type</th>
+606:                        <th className="border-r border-black px-1 py-1 text-center w-[30px]">Diam</th>
+607:                        <th className="border-r border-black px-1 py-1 text-center w-[40px]">Longueur</th>
+608:                        <th className="border-r border-black px-1 py-1 text-center w-[50px]">Cote Product</th>
+609:                        <th className="border-r border-black px-1 py-1 text-center w-[22px]">Ø Mini</th>
+647:                          <tr key={tool.id} className="border-b border-black border-solid hover:bg-slate-50 text-[9px] h-[21px] text-black">
+648:                            <td className="border-r border-black border-solid px-1 font-sans font-semibold text-black leading-tight">
+651:                            <td className="border-r border-black border-solid px-1 text-center text-black font-bold">
+654:                            <td className="border-r border-black border-solid px-1 text-center font-medium text-black">
+657:                            <td className="border-r border-black border-solid px-1 text-center font-bold text-black">
+660:                            <td className="border-r border-black border-solid px-1 text-right font-bold text-black">
+663:                            <td className="border-r border-black border-solid px-1 text-right font-black text-black">
+666:                            <td className="border-r border-black border-solid px-1 text-center text-black">
+681:              <div className="border border-black border-solid flex flex-col shrink-0 bg-white mb-2 print-color-adjust" id="print_perforations_table">
+682:                <div className="border-b border-black border-solid bg-gray-200 py-0.5 text-center font-sans font-black text-[9px] uppercase tracking-[0.2em] text-black">
+687:                    <tr className="border-b border-black border-solid text-[7.5px] font-bold uppercase bg-gray-200 text-black">
+688:                      <th className="border-r border-black px-1.5 py-0.5 text-center w-[120px]">NIVEAUX PERFORES</th>
+689:                      <th className="border-r border-black px-1 py-0.5 text-center w-[45px]">Hauteur</th>
+690:                      <th className="border-r border-black px-1 py-0.5 text-center w-[70px]">Type de Perfo.</th>
+691:                      <th className="border-r border-black px-1 py-0.5 text-center w-[80px]">Diamètre du Perfo.</th>
+692:                      <th className="border-r border-black px-1 py-0.5 text-center w-[70px]">Densité au m.</th>
+693:                      <th className="border-r border-black px-1 py-0.5 text-center w-[35px]">Calage</th>
+704:                        <tr key={isBlank ? `blank-perf-${idx}` : perf.id} className="border-b border-black border-solid h-[19px] text-[8.5px] text-black">
+705:                          <td className="border-r border-black border-solid px-1.5 font-bold text-center text-black">
+708:                          <td className="border-r border-black border-solid px-1 text-center font-bold text-black">
+711:                          <td className="border-r border-black border-solid px-1 text-center text-black uppercase">
+714:                          <td className="border-r border-black border-solid px-1 text-center font-bold text-black">
+717:                          <td className="border-r border-black border-solid px-1 text-center text-black">
+720:                          <td className="border-r border-black border-solid px-1 text-center text-black">
+734:              <div className="border border-black p-1.5 shrink-0 bg-white" id="print_observations_box">
+744:            <div className="border border-black bg-white flex flex-col justify-between p-1.5 relative h-full">
+747:              <div className="border-b border-black pb-1 mb-1 text-center shrink-0">
+754:              <div className="border border-black grid grid-cols-2 text-[8.5px] font-mono leading-tight mb-2 shrink-0 bg-slate-50/20">
+756:                <div className="border-r border-b border-black p-1 flex justify-between items-baseline">
+760:                <div className="border-b border-black p-1 flex justify-between items-baseline">
+765:                <div className="border-r border-b border-black p-1 flex justify-between items-baseline">
+769:                <div className="border-b border-black p-1 flex justify-between items-baseline">
+775:                <div className="border-r border-black p-1 flex justify-between items-baseline">
+1308:              <div className="border border-black border-solid p-1.5 shrink-0 bg-white grid grid-cols-2 text-[8.5px] leading-tight text-black" id="print_signatures_block">
+1309:                <div className="border-r border-black border-solid pr-1.5 flex flex-col justify-between font-mono">

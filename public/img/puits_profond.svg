@@ -1,0 +1,58 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+
+    <linearGradient id="layerGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="layerGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="layerGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="layerGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#7c2d12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+
+    <!-- surface line, slightly wavy to read as "ground" -->
+    <path d="M4 14 Q10 11 16 14 T28 14 T40 14 T52 14 T60 14"
+          fill="none" stroke="url(#iconGrad)" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- earth strata layers (getting deeper / darker downward) -->
+    <rect x="6"  y="17" width="52" height="8"  rx="2.5" fill="url(#layerGrad1)"/>
+    <rect x="6"  y="27" width="52" height="8"  rx="2.5" fill="url(#layerGrad2)"/>
+    <rect x="6"  y="37" width="52" height="8"  rx="2.5" fill="url(#layerGrad3)"/>
+    <rect x="6"  y="47" width="52" height="9"  rx="2.5" fill="url(#layerGrad4)"/>
+
+    <!-- wellhead cap at the surface -->
+    <rect x="27" y="7" width="10" height="7" rx="2" fill="url(#iconGrad)"/>
+    <circle cx="32" cy="5" r="2.6" fill="url(#iconGrad)"/>
+
+    <!-- well bore drilled straight through every layer to the deepest one -->
+    <rect x="29.5" y="13" width="5" height="46" rx="2" fill="#fff7ed"/>
+    <rect x="29.5" y="13" width="5" height="46" rx="2" fill="#ffffff" opacity="0.55"/>
+
+    <!-- drill bit reaching the deepest layer -->
+    <path d="M29.5 55 L34.5 55 L32 62 Z" fill="#fff7ed"/>
+
+    <!-- small depth marker arrow beside the bore -->
+    <path d="M42 20 L42 50" stroke="url(#iconGrad)" stroke-width="2.4" stroke-linecap="round" opacity="0.9"/>
+    <path d="M38 44 L42 51 L46 44" fill="none" stroke="url(#iconGrad)"
+          stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  </g>
+</svg>

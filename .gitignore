@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+coverage/
+rust/target/
+.DS_Store
+*.log
+.env*
+!.env.example
+# build and staging outputs
+build-desktop/
+package-staging/
+
+# database temporary files
+*.db-wal
+*.db-shm
+*.db-journal
+
+# IDEs
+.vscode/
+.idea/

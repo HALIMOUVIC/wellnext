@@ -1,0 +1,99 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071126"/>
+      <stop offset="100%" stop-color="#0a1733"/>
+    </linearGradient>
+
+    <!-- Glow filters for Cyan and Orange lines -->
+    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#00d2ff" flood-opacity="0.85"/>
+    </filter>
+    <filter id="orangeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#f97316" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Geological Strata Layers (Dark subtle lines) -->
+  <g stroke="#1b294a" stroke-width="1.2" fill="none" opacity="0.75">
+    <!-- Layer 1 -->
+    <path d="M 0,38 C 10,39 15,37 20,38" />
+    <path d="M 80,38 C 85,37 90,39 100,38" />
+
+    <!-- Layer 2 -->
+    <path d="M 0,54 C 15,55 20,53 26,54" />
+    <path d="M 74,54 C 80,53 85,55 100,54" />
+
+    <!-- Layer 3 -->
+    <path d="M 0,70 C 15,72 30,68 40,70" />
+    <path d="M 60,70 C 70,68 85,72 100,70" />
+
+    <!-- Layer 4 -->
+    <path d="M 0,86 C 15,84 30,88 44,86" />
+    <path d="M 56,86 C 70,88 85,84 100,86" />
+  </g>
+
+  <!-- Glowing blue horizontal lines in Strata -->
+  <line x1="0" y1="38" x2="20" y2="38" stroke="#00d2ff" stroke-width="1.8" filter="url(#cyanGlow)" stroke-linecap="round" />
+  <line x1="80" y1="38" x2="100" y2="38" stroke="#00d2ff" stroke-width="1.8" filter="url(#cyanGlow)" stroke-linecap="round" />
+
+  <!-- Wellhead (Christmas Tree) - Cyan Glow -->
+  <g stroke="#00d2ff" stroke-width="1.8" fill="none" filter="url(#cyanGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Flange Base -->
+    <line x1="36" y1="24" x2="64" y2="24" />
+    <!-- Adapter / Cap -->
+    <path d="M 40,24 V 21 H 60 V 24" />
+    <!-- Valve Body -->
+    <rect x="46" y="12" width="8" height="9" rx="1" fill="#071126" />
+    <!-- Top Cap -->
+    <path d="M 48.5,12 V 9 H 51.5 V 12" />
+    <line x1="47" y1="9" x2="53" y2="9" />
+    <!-- Side Handwheel -->
+    <line x1="54" y1="15.5" x2="61" y2="15.5" />
+    <line x1="61" y1="12.5" x2="61" y2="18.5" />
+  </g>
+
+  <!-- Casing String 1 (Outer Steps) - Orange Glow -->
+  <g stroke="#f97316" stroke-width="2" fill="none" filter="url(#orangeGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Outer Step -->
+    <path d="M 23,24 V 34 H 30 V 46" />
+    <!-- Right Outer Step -->
+    <path d="M 77,24 V 34 H 70 V 46" />
+  </g>
+
+  <!-- Surface line connection between steps -->
+  <line x1="23" y1="24" x2="36" y2="24" stroke="#00d2ff" stroke-width="1.8" filter="url(#cyanGlow)" />
+  <line x1="64" y1="24" x2="77" y2="24" stroke="#00d2ff" stroke-width="1.8" filter="url(#cyanGlow)" />
+
+  <!-- Casing String 2 (Middle Steps) - Cyan Glow -->
+  <g stroke="#00d2ff" stroke-width="2" fill="none" filter="url(#cyanGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Middle Step -->
+    <path d="M 36,24 V 58 H 42 V 72" />
+    <!-- Right Middle Step -->
+    <path d="M 64,24 V 58 H 58 V 72" />
+  </g>
+
+  <!-- Casing String 3 (Inner Steps) - Cyan Glow -->
+  <g stroke="#00d2ff" stroke-width="1.5" fill="none" filter="url(#cyanGlow)" stroke-linecap="round">
+    <line x1="42" y1="24" x2="42" y2="72" />
+    <line x1="58" y1="24" x2="58" y2="72" />
+  </g>
+
+  <!-- Central Tubing & Bottom Shoe - Orange Glow -->
+  <g stroke="#f97316" fill="none" filter="url(#orangeGlow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Central Tubing Lines -->
+    <line x1="46.5" y1="24" x2="46.5" y2="83" stroke-width="1.5" />
+    <line x1="53.5" y1="24" x2="53.5" y2="83" stroke-width="1.5" />
+    
+    <!-- Bottom Shoe / Tubing termination -->
+    <path d="M 46.5,83 L 43,86 V 94 H 57 V 86 L 53.5,83" stroke-width="2.2" fill="#071126" />
+    <path d="M 43,90 H 57" stroke-width="1" opacity="0.6" />
+  </g>
+
+  <!-- Central Dark Core (Inner Fluid Column) -->
+  <rect x="47.5" y="24" width="5" height="58" fill="#040a17" opacity="0.9" />
+</svg>

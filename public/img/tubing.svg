@@ -1,0 +1,72 @@
+<svg viewBox="0 10 300 658" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a4f54"/>
+      <stop offset="12%" stop-color="#8b9096"/>
+      <stop offset="25%" stop-color="#c7ccd1"/>
+      <stop offset="40%" stop-color="#dfe3e6"/>
+      <stop offset="50%" stop-color="#9aa0a6"/>
+      <stop offset="60%" stop-color="#dfe3e6"/>
+      <stop offset="75%" stop-color="#c7ccd1"/>
+      <stop offset="88%" stop-color="#8b9096"/>
+      <stop offset="100%" stop-color="#4a4f54"/>
+    </linearGradient>
+    <linearGradient id="steelCoupling" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3d4145"/>
+      <stop offset="12%" stop-color="#767b81"/>
+      <stop offset="25%" stop-color="#b3b8bd"/>
+      <stop offset="40%" stop-color="#cfd3d7"/>
+      <stop offset="50%" stop-color="#84898f"/>
+      <stop offset="60%" stop-color="#cfd3d7"/>
+      <stop offset="75%" stop-color="#b3b8bd"/>
+      <stop offset="88%" stop-color="#767b81"/>
+      <stop offset="100%" stop-color="#3d4145"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#2b2e31" stroke-width="1">
+    <!-- Coupling at top (box end - fully made up on this joint) -->
+    <rect x="98" y="10" width="64" height="80" fill="url(#steelCoupling)"/>
+    <g stroke="#2b2e31" stroke-width="0.7">
+      <line x1="98" y1="18" x2="162" y2="18"/>
+      <line x1="98" y1="24" x2="162" y2="24"/>
+      <line x1="98" y1="30" x2="162" y2="30"/>
+      <line x1="98" y1="36" x2="162" y2="36"/>
+      <line x1="98" y1="42" x2="162" y2="42"/>
+      <line x1="98" y1="48" x2="162" y2="48"/>
+      <line x1="98" y1="54" x2="162" y2="54"/>
+      <line x1="98" y1="62" x2="162" y2="62"/>
+      <line x1="98" y1="68" x2="162" y2="68"/>
+      <line x1="98" y1="74" x2="162" y2="74"/>
+      <line x1="98" y1="80" x2="162" y2="80"/>
+    </g>
+
+    <!-- Upset transition below coupling -->
+    <rect x="108" y="90" width="44" height="18" fill="url(#steel)"/>
+
+    <!-- Main tubing body (single joint, straight pipe) -->
+    <rect x="112" y="108" width="36" height="480" fill="url(#steel)"/>
+
+    <!-- Manufacturer / grade stencil band -->
+    <rect x="112" y="540" width="36" height="14" fill="#e0b23c" stroke="#8a6d1e"/>
+    <text x="130" y="550" font-size="7" fill="#3a2c08" text-anchor="middle" font-family="Arial">API</text>
+
+    <!-- Upset transition above pin -->
+    <rect x="108" y="588" width="44" height="18" fill="url(#steel)"/>
+
+    <!-- Bottom pin thread (male end, unconnected) -->
+    <rect x="116" y="606" width="28" height="55" fill="url(#steel)"/>
+    <g stroke="#2b2e31" stroke-width="0.7">
+      <line x1="116" y1="611" x2="144" y2="611"/>
+      <line x1="116" y1="617" x2="144" y2="617"/>
+      <line x1="116" y1="623" x2="144" y2="623"/>
+      <line x1="116" y1="629" x2="144" y2="629"/>
+      <line x1="116" y1="635" x2="144" y2="635"/>
+      <line x1="116" y1="641" x2="144" y2="641"/>
+      <line x1="116" y1="647" x2="144" y2="647"/>
+      <line x1="116" y1="653" x2="144" y2="653"/>
+    </g>
+    <!-- chamfered pin tip -->
+    <polygon points="116,661 144,661 138,668 122,668" fill="url(#steel)"/>
+  </g>
+</svg>

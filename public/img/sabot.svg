@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 300 390" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="metal2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a1414"/>
+      <stop offset="15%" stop-color="#c62828"/>
+      <stop offset="35%" stop-color="#e57373"/>
+      <stop offset="50%" stop-color="#9c1c1c"/>
+      <stop offset="65%" stop-color="#e57373"/>
+      <stop offset="85%" stop-color="#c62828"/>
+      <stop offset="100%" stop-color="#8a1414"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#333" stroke-width="1">
+    <!-- Top box thread connection -->
+    <rect x="90" y="40" width="60" height="60" fill="url(#metal2)"/>
+    <g stroke="#888" stroke-width="1">
+      <line x1="90" y1="47" x2="150" y2="47"/>
+      <line x1="90" y1="53" x2="150" y2="53"/>
+      <line x1="90" y1="59" x2="150" y2="59"/>
+      <line x1="90" y1="65" x2="150" y2="65"/>
+      <line x1="90" y1="71" x2="150" y2="71"/>
+      <line x1="90" y1="77" x2="150" y2="77"/>
+      <line x1="90" y1="83" x2="150" y2="83"/>
+      <line x1="90" y1="89" x2="150" y2="89"/>
+      <line x1="90" y1="95" x2="150" y2="95"/>
+    </g>
+
+    <!-- Body of shoe / casing collar -->
+    <rect x="85" y="100" width="70" height="55" fill="url(#metal2)"/>
+
+    <!-- Body taper down to shoe housing -->
+    <polygon points="85,155 155,155 148,190 92,190" fill="url(#metal2)"/>
+
+    <!-- Main shoe body -->
+    <rect x="92" y="190" width="56" height="120" fill="url(#metal2)"/>
+
+    <!-- Float valve housing ring -->
+    <rect x="88" y="230" width="64" height="14" fill="#a9adb1"/>
+    <rect x="88" y="248" width="64" height="14" fill="#a9adb1"/>
+
+    <!-- Single angled/beveled slanted cut at bottom -->
+    <polygon points="92,310 148,310 92,430" fill="url(#metal2)"/>
+
+  </g>
+</svg>

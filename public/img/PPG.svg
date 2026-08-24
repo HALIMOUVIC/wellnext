@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" width="100%" height="100%">
+  <defs>
+    <!-- Cyan/Teal Metallic Gradient for Rig & Pipe -->
+    <linearGradient id="tealMetalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="25%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+
+    <!-- Horizontal Pipe Gradient -->
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="70%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+
+    <!-- Realistic Gas Flare Flame Radial Gradient -->
+    <radialGradient id="realFlameGrad" cx="0.4" cy="0.25" r="0.9">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="25%" stop-color="#fef08a"/>
+      <stop offset="45%" stop-color="#f59e0b"/>
+      <stop offset="70%" stop-color="#ea580c"/>
+      <stop offset="90%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ================= 1. HORIZONTAL PIPELINE & FLANGES (BEHIND DERRICK) ================= -->
+  <g stroke="#083344" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Flange -->
+    <rect x="24" y="132" width="16" height="52" rx="4" fill="url(#pipeGrad)"/>
+
+    <!-- Left Pipe Segment -->
+    <rect x="40" y="141" width="48" height="34" fill="url(#pipeGrad)"/>
+    <line x1="40" y1="145" x2="88" y2="145" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Right Pipe Segment -->
+    <rect x="132" y="141" width="48" height="34" fill="url(#pipeGrad)"/>
+    <line x1="132" y1="145" x2="180" y2="145" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Right Flange -->
+    <rect x="180" y="132" width="16" height="52" rx="4" fill="url(#pipeGrad)"/>
+  </g>
+
+  <!-- ================= 2. REALISTIC GAS FLARE FLAME ================= -->
+  <g id="flame" transform="translate(110, 86) scale(1.4) translate(-148, -60)">
+    <!-- Outer Flame Mantle -->
+    <path d="M148,10
+             C142,22 130,30 130,44
+             C130,54 137,60 148,60
+             C159,60 166,54 166,44
+             C166,34 158,28 156,18
+             C154,26 150,28 148,22
+             C146,16 150,14 148,10 Z"
+          fill="url(#realFlameGrad)" stroke="#7f1d1d" stroke-width="1.2" stroke-linejoin="round"/>
+    
+    <!-- Hot Core / Luminous Inner Glow -->
+    <path d="M148,26 C145,32 141,36 141,43 C141,49 144,52 148,52 C152,52 155,49 155,43 C155,38 151,35 150,30 C149,34 147,35 146,32 C145,29 147,28 148,26 Z"
+          fill="#fffde7" opacity="0.85"/>
+  </g>
+
+  <!-- ================= 3. DRILLING / PRODUCTION DERRICK ================= -->
+  <g stroke="#083344" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main Derrick Body with Cutouts -->
+    <path fill="url(#tealMetalGrad)" fill-rule="evenodd" d="
+      M 84,86
+      H 136
+      C 139,86 141,89 140,92
+      L 148,180
+      C 148,182 150,184 153,184
+      H 158
+      V 198
+      H 130
+      V 184
+      H 135
+      L 130,132
+      L 90,132
+      L 85,184
+      H 90
+      V 198
+      H 62
+      V 184
+      H 67
+      C 70,184 72,182 72,180
+      L 80,92
+      C 79,89 81,86 84,86
+      Z
+      M 94,98
+      H 126
+      L 110,118
+      Z
+      M 92,102
+      L 108,122
+      L 89,146
+      Z
+      M 128,102
+      L 131,146
+      L 112,122
+      Z
+      M 110,126
+      L 126,146
+      L 94,146
+      Z
+      M 89,152
+      L 108,176
+      L 86,176
+      Z
+      M 131,152
+      L 134,176
+      L 112,176
+      Z
+      M 110,152
+      L 124,170
+      L 96,170
+      Z
+    "/>
+
+    <!-- Derrick Top Crown Block Flange -->
+    <rect x="80" y="86" width="60" height="9" rx="2" fill="url(#tealMetalGrad)"/>
+    <line x1="82" y1="88" x2="138" y2="88" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
+  </g>
+</svg>

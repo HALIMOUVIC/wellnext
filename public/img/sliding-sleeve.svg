@@ -1,0 +1,50 @@
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chromeShaft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#4a4d4f"/>
+      <stop offset="12%"  stop-color="#9ea1a3"/>
+      <stop offset="24%"  stop-color="#e8eaeb"/>
+      <stop offset="34%"  stop-color="#f8fafa"/>
+      <stop offset="44%"  stop-color="#c7cacb"/>
+      <stop offset="54%"  stop-color="#8b8e90"/>
+      <stop offset="66%"  stop-color="#5c5f61"/>
+      <stop offset="78%"  stop-color="#7d8082"/>
+      <stop offset="90%"  stop-color="#3d4042"/>
+      <stop offset="100%" stop-color="#242628"/>
+    </linearGradient>
+
+    <linearGradient id="chromeCap" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3a3c3e"/>
+      <stop offset="15%"  stop-color="#8b8e90"/>
+      <stop offset="30%"  stop-color="#e2e4e5"/>
+      <stop offset="45%"  stop-color="#f5f7f7"/>
+      <stop offset="55%"  stop-color="#c0c3c4"/>
+      <stop offset="70%"  stop-color="#7a7d7f"/>
+      <stop offset="85%"  stop-color="#545658"/>
+      <stop offset="100%" stop-color="#2a2c2e"/>
+    </linearGradient>
+  </defs>
+
+  <!--
+    Scaled to match siege.svg / sabot.svg tubing column: viewBox 300×220, body width 64 at x=88–152.
+  -->
+  <g transform="translate(120, 8) scale(1.6, 0.545) translate(-160, -85)">
+    <ellipse cx="160" cy="85" rx="20" ry="5" fill="#333537"/>
+    <rect x="140" y="85" width="40" height="8" fill="#2c2e30"/>
+    <ellipse cx="160" cy="93" rx="20" ry="5" fill="#333537"/>
+
+    <rect x="141" y="93" width="38" height="330" fill="url(#chromeShaft)"/>
+    <rect x="152" y="93" width="8" height="330" fill="#f2f3f3" opacity="0.55"/>
+    <rect x="163" y="93" width="4" height="330" fill="#ffffff" opacity="0.4"/>
+
+    <rect x="146" y="248" width="9" height="26" rx="3" fill="#111213"/>
+    <rect x="160" y="250" width="5" height="20" rx="2" fill="#1c1d1e"/>
+
+    <ellipse cx="160" cy="423" rx="20" ry="5" fill="#333537"/>
+    <rect x="140" y="423" width="40" height="9" fill="#2c2e30"/>
+    <ellipse cx="160" cy="432" rx="20" ry="5" fill="#3a3c3e"/>
+
+    <rect x="144" y="432" width="32" height="20" fill="url(#chromeCap)"/>
+    <ellipse cx="160" cy="452" rx="16" ry="6" fill="#3a3c3e"/>
+  </g>
+</svg>

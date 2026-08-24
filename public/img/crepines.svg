@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 750" width="300" height="750">
+  <defs>
+    <filter id="dropshadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="gradient-path_y290qn18t_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#05070a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_glucuvtnd_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="20%" stop-color="#64748b" />
+      <stop offset="45%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#94a3b8" />
+      <stop offset="90%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_z50v8a65y_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="20%" stop-color="#64748b" />
+      <stop offset="45%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#94a3b8" />
+      <stop offset="90%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_ookc8wtnl_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="20%" stop-color="#64748b" />
+      <stop offset="45%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#94a3b8" />
+      <stop offset="90%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_apt57hpyd_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="20%" stop-color="#64748b" />
+      <stop offset="45%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#94a3b8" />
+      <stop offset="90%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_iau81ezvq_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="20%" stop-color="#64748b" />
+      <stop offset="45%" stop-color="#f8fafc" />
+      <stop offset="70%" stop-color="#94a3b8" />
+      <stop offset="90%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="gradient-path_yaafd7dn4_1786640433128_0" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="15%" stop-color="#cbd5e1" />
+      <stop offset="35%" stop-color="#ffffff" />
+      <stop offset="65%" stop-color="#94a3b8" />
+      <stop offset="85%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-378.2, -23.8) scale(1.37)">
+    <path id="path_nejdso193_1786640433127_0" d="M 334.45 36.11 C 404.45 56.11 434.45 36.11 434.45 36.11 L 434.45 39.11 C 434.45 39.11 404.45 59.11 334.45 39.11 Z" fill="rgb(30, 41, 59)" stroke="none" opacity="0.70" />
+    <path id="path_y290qn18t_1786640433128_0" d="M 340.56 36.11 h 90.00 0.00    v 0.00 510.00    h -90.00 0.00    Z" fill="url(#gradient-path_y290qn18t_1786640433128_0)" stroke="none" />
+    <path id="path_glucuvtnd_1786640433128_0" d="M 347.56 36.11 h 8.00 0.00    v 0.00 510.00    h -8.00 0.00    Z" fill="url(#gradient-path_glucuvtnd_1786640433128_0)" stroke="none" />
+    <path id="path_z50v8a65y_1786640433128_0" d="M 367.56 36.11 h 8.00 0.00    v 0.00 510.00    h -8.00 0.00    Z" fill="url(#gradient-path_z50v8a65y_1786640433128_0)" stroke="none" />
+    <path id="path_ookc8wtnl_1786640433128_0" d="M 387.56 36.11 h 8.00 0.00    v 0.00 510.00    h -8.00 0.00    Z" fill="url(#gradient-path_ookc8wtnl_1786640433128_0)" stroke="none" />
+    <path id="path_apt57hpyd_1786640433128_0" d="M 407.56 36.11 h 8.00 0.00    v 0.00 510.00    h -8.00 0.00    Z" fill="url(#gradient-path_apt57hpyd_1786640433128_0)" stroke="none" />
+    <path id="path_iau81ezvq_1786640433128_0" d="M 415.56 36.11 h 6.00 0.00    v 0.00 510.00    h -6.00 0.00    Z" fill="url(#gradient-path_iau81ezvq_1786640433128_0)" stroke="none" />
+    <path id="path_yaafd7dn4_1786640433128_0" d="M 333.56 36.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 45.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 54.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 63.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 72.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 81.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 90.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 99.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 108.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 117.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 126.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 135.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 144.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 153.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 162.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 171.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 180.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 189.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 198.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 207.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 216.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 225.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 234.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 243.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 252.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 261.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 270.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 279.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 288.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 297.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 306.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 315.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 324.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 333.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 342.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 351.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 360.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 369.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 378.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 387.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 396.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 405.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 414.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 423.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 432.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 441.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 450.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 459.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 468.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 477.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 486.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 495.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 504.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 513.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 522.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 531.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z    M 333.56 540.11 h 104.00 0.00    v 0.00 6.00    h -104.00 0.00    z" fill="url(#gradient-path_yaafd7dn4_1786640433128_0)" stroke="rgb(15, 23, 42)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

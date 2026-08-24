@@ -1,0 +1,71 @@
+<svg viewBox="0 0 64 92" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f97316" stroke="#9a3412" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- ============ TOP HANDWHEEL VALVE ============ -->
+    <rect x="29.5" y="7" width="5" height="5"/>
+    <circle cx="32" cy="17" r="6.2" fill="none"/>
+    <line x1="32" y1="11" x2="32" y2="23"/>
+    <line x1="26.5" y1="20" x2="37.5" y2="14"/>
+    <line x1="26.5" y1="14" x2="37.5" y2="20"/>
+    <circle cx="32" cy="17" r="1.6"/>
+
+    <!-- stem connecting top wheel to cross -->
+    <rect x="29.5" y="23" width="5" height="4"/>
+    <rect x="26.5" y="27" width="11" height="4.5" rx="1"/>
+
+    <!-- ============ HORIZONTAL CROSS ARM (with left/center/right wheels) ============ -->
+    <rect x="10" y="34.2" width="44" height="4.6" rx="1"/>
+
+    <!-- left wheel on cross arm -->
+    <circle cx="16.5" cy="36.5" r="5.4" fill="none"/>
+    <line x1="16.5" y1="31.5" x2="16.5" y2="41.5"/>
+    <line x1="12" y1="34" x2="21" y2="39"/>
+    <line x1="12" y1="39" x2="21" y2="34"/>
+    <circle cx="16.5" cy="36.5" r="1.4"/>
+
+    <!-- right wheel on cross arm -->
+    <circle cx="47.5" cy="36.5" r="5.4" fill="none"/>
+    <line x1="47.5" y1="31.5" x2="47.5" y2="41.5"/>
+    <line x1="43" y1="34" x2="52" y2="39"/>
+    <line x1="43" y1="39" x2="52" y2="34"/>
+    <circle cx="47.5" cy="36.5" r="1.4"/>
+
+    <!-- center wheel on cross (main body valve) -->
+    <circle cx="32" cy="36.5" r="6.6" fill="none"/>
+    <line x1="32" y1="30.4" x2="32" y2="42.6"/>
+    <line x1="26.6" y1="33.3" x2="37.4" y2="39.7"/>
+    <line x1="26.6" y1="39.7" x2="37.4" y2="33.3"/>
+    <circle cx="32" cy="36.5" r="1.7"/>
+
+    <!-- ============ VERTICAL STEM DOWN TO LOWER WHEEL ============ -->
+    <rect x="27.5" y="39" width="9" height="6"/>
+
+    <!-- ============ SECOND HANDWHEEL VALVE (lower body) ============ -->
+    <circle cx="32" cy="52" r="7.2" fill="none"/>
+    <line x1="32" y1="45.2" x2="32" y2="58.8"/>
+    <line x1="26.1" y1="48.4" x2="37.9" y2="55.6"/>
+    <line x1="26.1" y1="55.6" x2="37.9" y2="48.4"/>
+    <circle cx="32" cy="52" r="1.9"/>
+
+    <!-- ============ MAIN BODY / SPOOL BELOW WHEEL ============ -->
+    <rect x="27" y="59" width="10" height="5"/>
+    <rect x="24" y="64" width="16" height="7" rx="1.5"/>
+    <rect x="27" y="71" width="10" height="7"/>
+
+    <!-- ============ LEFT SIDE GATE VALVE ARM ============ -->
+    <rect x="6" y="77" width="21" height="4.4" rx="1"/>
+    <rect x="14.5" y="70" width="4" height="8"/>
+    <rect x="10.5" y="66.5" width="12" height="4" rx="1"/>
+    <rect x="4" y="75" width="4" height="8" rx="1"/>
+
+    <!-- ============ RIGHT SIDE GATE VALVE ARM ============ -->
+    <rect x="37" y="77" width="21" height="4.4" rx="1"/>
+    <rect x="45.5" y="70" width="4" height="8"/>
+    <rect x="41.5" y="66.5" width="12" height="4" rx="1"/>
+    <rect x="56" y="75" width="4" height="8" rx="1"/>
+
+    <!-- ============ BASE COLUMN ============ -->
+    <rect x="26" y="78" width="12" height="8" rx="1"/>
+
+  </g>
+</svg>

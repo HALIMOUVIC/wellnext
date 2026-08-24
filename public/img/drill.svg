@@ -1,0 +1,100 @@
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f5f5a"/>
+      <stop offset="18%" stop-color="#1f8a80"/>
+      <stop offset="35%" stop-color="#2fb3a3"/>
+      <stop offset="55%" stop-color="#1c7d73"/>
+      <stop offset="80%" stop-color="#0e5450"/>
+      <stop offset="100%" stop-color="#083c39"/>
+    </linearGradient>
+
+    <linearGradient id="threadGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a4c48"/>
+      <stop offset="30%" stop-color="#2aa79a"/>
+      <stop offset="50%" stop-color="#4fd0c0"/>
+      <stop offset="70%" stop-color="#1c8a7d"/>
+      <stop offset="100%" stop-color="#083330"/>
+    </linearGradient>
+
+    <linearGradient id="crownGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d4f4a"/>
+      <stop offset="25%" stop-color="#237e75"/>
+      <stop offset="50%" stop-color="#38a89b"/>
+      <stop offset="75%" stop-color="#155a54"/>
+      <stop offset="100%" stop-color="#083330"/>
+    </linearGradient>
+
+    <radialGradient id="buttonGrad" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#d9d9d9"/>
+      <stop offset="100%" stop-color="#8f8f8f"/>
+    </radialGradient>
+
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1b1b"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+
+  <!--
+    Scaled to match siege.svg (Seating Nipple): viewBox 300×220, body width 64 at x=88–152.
+    Transform maps original 200×400 art onto the same tubing column width as siège.
+  -->
+  <g transform="translate(35.78, 2.85) scale(0.842, 0.511)">
+    <g id="threads">
+      <rect x="70" y="14" width="60" height="70" fill="url(#threadGrad)"/>
+      <g stroke="#06302d" stroke-width="2.2">
+        <line x1="70" y1="20" x2="130" y2="20"/>
+        <line x1="70" y1="27" x2="130" y2="27"/>
+        <line x1="70" y1="34" x2="130" y2="34"/>
+        <line x1="70" y1="41" x2="130" y2="41"/>
+        <line x1="70" y1="48" x2="130" y2="48"/>
+        <line x1="70" y1="55" x2="130" y2="55"/>
+        <line x1="70" y1="62" x2="130" y2="62"/>
+        <line x1="70" y1="69" x2="130" y2="69"/>
+        <line x1="70" y1="76" x2="130" y2="76"/>
+      </g>
+      <rect x="78" y="14" width="8" height="70" fill="#ffffff" opacity="0.18"/>
+      <ellipse cx="100" cy="14" rx="30" ry="6" fill="#1c8a7d" stroke="#06302d" stroke-width="2"/>
+      <ellipse cx="100" cy="14" rx="30" ry="6" fill="url(#threadGrad)" opacity="0.9"/>
+    </g>
+
+    <g id="body">
+      <path d="M62,84 L138,84 L138,300 L62,300 Z" fill="url(#bodyGrad)" stroke="#062f2b" stroke-width="2"/>
+      <rect x="72" y="86" width="7" height="212" fill="#ffffff" opacity="0.15"/>
+      <rect x="120" y="86" width="6" height="212" fill="#000000" opacity="0.18"/>
+      <path d="M62,84 L70,90 L130,90 L138,84 Z" fill="#0a3f3b"/>
+    </g>
+
+    <g id="button">
+      <rect x="86" y="175" width="28" height="40" rx="4" fill="#062f2b" stroke="#031a18" stroke-width="1.5"/>
+      <rect x="90" y="180" width="20" height="30" rx="3" fill="url(#buttonGrad)"/>
+      <circle cx="100" cy="195" r="5" fill="#5a5a5a"/>
+    </g>
+
+    <g id="sideLugs">
+      <path d="M62,222 C50,224 44,232 44,244 C44,256 50,264 62,266 Z" fill="url(#bodyGrad)" stroke="#062f2b" stroke-width="2"/>
+      <path d="M62,222 C54,224 50,230 50,244 C50,258 54,262 62,266 Z" fill="#ffffff" opacity="0.12"/>
+      <path d="M138,222 C150,224 156,232 156,244 C156,256 150,264 138,266 Z" fill="url(#bodyGrad)" stroke="#062f2b" stroke-width="2"/>
+      <path d="M138,222 C146,224 150,230 150,244 C150,258 146,262 138,266 Z" fill="#000000" opacity="0.18"/>
+    </g>
+
+    <g id="chamfer">
+      <path d="M62,300 L45,330 L155,330 L138,300 Z" fill="url(#crownGrad)" stroke="#062f2b" stroke-width="2"/>
+    </g>
+
+    <g id="crown">
+      <path d="M45,330 L155,330 L150,352 L50,352 Z" fill="url(#crownGrad)" stroke="#062f2b" stroke-width="2"/>
+      <g fill="#d9d9d9" stroke="#3a3a3a" stroke-width="1">
+        <circle cx="58" cy="340" r="5"/>
+        <circle cx="76" cy="342" r="5.5"/>
+        <circle cx="94" cy="343" r="6"/>
+        <circle cx="112" cy="342" r="5.5"/>
+        <circle cx="130" cy="340" r="5"/>
+        <circle cx="146" cy="337" r="4.5"/>
+      </g>
+      <path d="M50,352 L58,366 L66,352 L74,366 L82,352 L90,366 L98,352 L106,366 L114,352 L122,366 L130,352 L138,366 L146,352 L150,352 Z" fill="url(#toothGrad)" stroke="#000" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

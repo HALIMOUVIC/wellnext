@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Smooth linear gradient matching the red body -->
+    <linearGradient id="redValveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+
+    <!-- Badge red gradient -->
+    <linearGradient id="badgeRedGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#7f1d1d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ================= 1. VALVE BODY ================= -->
+    <path fill="url(#redValveGradient)" d="
+      M 44,103
+      H 68
+      C 76,90 87,86 100,86
+      C 113,86 124,90 132,103
+      H 156
+      V 147
+      H 132
+      C 124,160 113,164 100,164
+      C 87,164 76,160 68,147
+      H 44
+      Z
+    "/>
+
+    <!-- ================= 2. LEFT & RIGHT FLANGES ================= -->
+    <!-- Left Flange -->
+    <rect x="20" y="93" width="18" height="64" rx="8" fill="url(#redValveGradient)"/>
+
+    <!-- Right Flange -->
+    <rect x="162" y="93" width="18" height="64" rx="8" fill="url(#redValveGradient)"/>
+
+    <!-- ================= 3. BONNET / STEM HOUSING ================= -->
+    <!-- Lower Bonnet Flange Base -->
+    <path d="M 72,84 C 72,77 78,71 86,71 H 114 C 122,71 128,77 128,84 Z" fill="url(#redValveGradient)"/>
+
+    <!-- Stepped Packing Gland -->
+    <path d="M 82,71 V 56 H 118 V 71 Z" fill="url(#redValveGradient)"/>
+
+    <!-- Central Rising Stem -->
+    <rect x="94" y="38" width="12" height="18" fill="url(#redValveGradient)"/>
+
+    <!-- ================= 4. TOP T-BAR HANDWHEEL ================= -->
+    <!-- Top Spindle Nut -->
+    <path d="M 94,38 V 32 C 94,29 97,27 100,27 C 103,27 106,29 106,32 V 38 Z" fill="url(#redValveGradient)"/>
+
+    <!-- Handwheel Crossbar -->
+    <rect x="52" y="38" width="96" height="14" rx="7" fill="url(#redValveGradient)"/>
+
+    <!-- ================= 5. LOWER-RIGHT 'X' BADGE (SHUT-OFF INDICATOR) ================= -->
+    <!-- Badge Background Circle -->
+    <circle cx="150" cy="148" r="26" fill="url(#badgeRedGradient)" stroke="#ffffff" stroke-width="2.5"/>
+
+    <!-- White 'X' Cross -->
+    <path d="
+      M 140,138 L 160,158
+      M 160,138 L 140,158
+    " stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+
+  </g>
+</svg>

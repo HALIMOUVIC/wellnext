@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Soft green gradient fill matching the reference -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#55c082"/>
+      <stop offset="40%" stop-color="#3eb370"/>
+      <stop offset="100%" stop-color="#2a9657"/>
+    </linearGradient>
+
+    <!-- Top highlight reflection for 3D depth -->
+    <linearGradient id="highlightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark green outline stroke settings -->
+  <g stroke="#1d6638" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ================= 1. VALVE BODY (ROUNDED SPHERICAL GATE) ================= -->
+    <path fill="url(#bodyGrad)" d="
+      M 48,136
+      H 74
+      C 82,118 99,118 120,118
+      C 141,118 158,118 166,136
+      H 192
+      V 192
+      H 166
+      C 158,210 141,210 120,210
+      C 99,210 82,210 74,192
+      H 48
+      Z
+    "/>
+
+    <!-- Subtle body curvature highlight -->
+    <path d="M 76,140 C 86,126 102,124 120,124 C 138,124 154,126 164,140" fill="none" stroke="url(#highlightGrad)" stroke-width="4"/>
+
+    <!-- ================= 2. LEFT & RIGHT FLANGES ================= -->
+    <!-- Left Flange -->
+    <rect x="22" y="125" width="20" height="78" rx="8" fill="url(#bodyGrad)"/>
+    <!-- Right Flange -->
+    <rect x="198" y="125" width="20" height="78" rx="8" fill="url(#bodyGrad)"/>
+
+    <!-- ================= 3. BONNET / STEM HOUSING ================= -->
+    <!-- Lower Bonnet Flange Base -->
+    <path d="M 86,114 C 86,105 92,98 102,98 H 138 C 148,98 154,105 154,114 Z" fill="url(#bodyGrad)"/>
+
+    <!-- Stepped Packing Gland -->
+    <path d="M 98,98 V 82 H 142 V 98 Z" fill="url(#bodyGrad)"/>
+
+    <!-- Central Rising Stem -->
+    <rect x="108" y="60" width="24" height="22" fill="url(#bodyGrad)"/>
+
+    <!-- ================= 4. TOP T-BAR HANDWHEEL ================= -->
+    <!-- Handwheel Crossbar -->
+    <rect x="60" y="55" width="120" height="18" rx="9" fill="url(#bodyGrad)"/>
+
+    <!-- Top Hub Cap / Handwheel Nut -->
+    <path d="M 108,55 V 48 C 108,44 113,42 120,42 C 127,42 132,44 132,48 V 55 Z" fill="url(#bodyGrad)"/>
+
+    <!-- ================= 5. DIRECTION OF FLOW ARROW (SOLID WHITE WITH DARK CONTOUR) ================= -->
+    <path fill="#ffffff" stroke="#1d6638" stroke-width="7" d="
+      M 82,156
+      C 76.5,156 72,160.5 72,166
+      C 72,171.5 76.5,176 82,176
+      H 124
+      V 188
+      L 162,166
+      L 124,144
+      V 156
+      Z
+    "/>
+
+  </g>
+</svg>
